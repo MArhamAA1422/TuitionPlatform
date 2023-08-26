@@ -48,7 +48,7 @@ $res = mysqli_query($con,$query);
                         <p class="card-text"><strong>Location:</strong> <?php echo $row['Location']; ?> <strong></p>
                         <p class="card-text"><strong>Salary:</strong> <?php echo $row['Salary']; ?> </p>
                         <!-- <p class="card-text"><strong>Contact:</strong> <?php echo $row['Contact']; ?> </p> -->
-                        <a href="apply.html" class="button">Apply</a>
+                        <a href="../apply.html" class="button">Apply</a>
                     </div>
                 </div>
             </div>
