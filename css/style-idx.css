@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+header {
+    background: rgba(185, 228, 235, 0.727);
+    margin: 0px 0px 100px 0px;
+    flex-wrap: wrap; /* not working */
+}
+
+.header-content-section {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 15px; /* Add padding around the content */
+    background-color: #f2f2f2;
+    border: 3px solid #ccc;
+}
+
+.hu-image {
+    height: 40px;
+    width: 50px;
+    border-radius: 8px;
+}
+
+.signin-button:hover {
+    background-color: #0057b36a;
+    transform: scale(1.1);
+}
+
+.signin-button {
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.web-name {
+    color: blue;
+    margin: 0px 0px 0px 100px;
+}
+
+.sign-in-link {
+    color: black;
+}
+
+.sign-in, .job-board {
+    float: right;
+}
+
+.empty {
+    height:50px;
+    background-color:rgba(0, 0, 255, 0.582);
+}
+
+.empty h3 {
+    font-family: system-ui;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    -webkit-text-stroke: 2px;
+}
+
+.tuition-types, .categories {
+    text-align: center;
+}
+
+.tuition-type {
+    margin: 20px;
+}
+
+.categories {
+    margin: 50px;
+    padding: 10px;
+}
+
+.tuition-type {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* working */
+}
+
+.cat-pic {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* working */
+}
+
+.tuition-type h2 {
+    color: blue;
+}
+
+.tuition-type-card {
+    background: white;
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.pics {
+    background: white;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.pics h6 {
+    padding: 10px;
+    text-align: center;
+}
+
+.pics-img {
+    background-color: aqua;
+    height: 450px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.bn-m {
+    background-image: url('../images/Bangla.png');
+}
+
+.lan-l {
+    background-image: url('../images/langL.png');
+}
+
+.sk-d {
+    background-image: url('../images/Special_Skill.png');
+}
+
+.chi-edu {
+    background-image: url('../images/Special\ _Child.png');
+}
+
+.tuition-type-card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.pics:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.copyright {
+    text-align: center;
+    margin: 100px;
+}
+
+.copyright p {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    background-color: aliceblue;
+}
