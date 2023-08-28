@@ -1,5 +1,7 @@
 <?php
 
+// Database Coonection
+
 $con = mysqli_connect('localhost','root');
 
 // if ($con) {

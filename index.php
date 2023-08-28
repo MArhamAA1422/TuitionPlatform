@@ -82,31 +82,38 @@ $res = mysqli_query($con,$query);
         </div>
     </section> -->
 
-    <div class="feed">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="card" style="width:100%; text-align: center;">
+        <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
             <?php
 
                 while ($row = mysqli_fetch_assoc($res)) {
             ?>
 
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
+                <!-- <div class="col"> -->
+                    <!-- <div class="card" style="width:100%;"> -->
+                        <div class="card-body" style="border-style: dashed; margin: 0 0 2.5px 5px;">
                             <h5 class="card-title">Tuition NO: <?php echo $row['id']; ?> </h5>
                             <p class="card-text"><strong><?php echo $row['Title']; ?> </strong></p>
-                            <p class="card-text"><strong>Location:</strong> <?php echo $row['Location']; ?> <strong></p>
+                            <p class="card-text"><strong>Location:</strong> <?php echo $row['Location']; ?></p>
+                            <p class="card-text"><strong>Subject:</strong> <?php echo $row['Subject']; ?></p>
                             <p class="card-text"><strong>Salary:</strong> <?php echo $row['Salary']; ?> </p>
-                            <p class="card-text"><strong>Contact:</strong> <?php echo $row['Contact']; ?> </p>
-                            <!-- <button type="button" class="btn btn-primary"><a href="tutorlogincheck.php">Apply</a></button> -->
-                            <a href="Tutor/tutorlogin.html" class="button">Apply</a>
+                            <p class="card-text"><strong>Description:</strong> <?php echo $row['Description']; ?> </p>
+                            <!-- <p class="card-text"><strong>Contact:</strong> <?php echo $row['Contact']; ?> </p> -->
+                            <button type="button" class="btn btn-primary" onclick="openSigninBox()">Apply</button>
+                            <div class="signin-box" id="signin-box">
+                                <h2>Sign In?</h2>
+                                <p>You can not apply without “Sign In”. So please “Sign In” to apply for this tuition job.</p>
+                                <a type="button" class="btn btn-primary" href="Tutor/tutorlogin.html">YES</a>
+                                <a type="button" class="btn btn-light" onclick="closeSigninBox()">NO</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    <!-- </div> -->
+                <!-- </div> -->
 
             <?php
                 }
             ?>
-        </div>
+        <!-- </div> -->
     </div>
 
     <div class="copyright">
@@ -117,6 +124,16 @@ $res = mysqli_query($con,$query);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <script>
+        let signin = document.getElementById("signin-box");
+        function openSigninBox() {
+            signin.classList.add("openSI");
+        }
+        function closeSigninBox() {
+            signin.classList.remove("openSI");
+        }
+    </script>
 </body>
 
 </html>
