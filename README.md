@@ -15,7 +15,9 @@ A very simple DB project. Just to feel project vibe!
 
 ### FrontEnd Development Tools: HTML, CSS, Bootstrap, JS
 
-### BackEnd Development Tools: PHP, MySQL
+### BackEnd Development Tools: PHP
+
+### Database: MySQL
 
 ## Project Flow
 
