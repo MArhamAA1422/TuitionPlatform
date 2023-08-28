@@ -1,7 +1,7 @@
 # TuitionPlatform
 A very simple DB project. Just to feel project vibe!
 
-**Author:Md. Mazharul Islam & Md. Arham Ahmed Adil**
+**Author: Md. Mazharul Islam & Md Arham Ahmed Adil**
 
 ### How to Run the Project
 
@@ -19,7 +19,7 @@ A very simple DB project. Just to feel project vibe!
 
 ### Database: MySQL
 
-## Some snap shot of this projocts flow
+## Some snap shots of this project
 
 ![alt text](images/home.png "Home")
 
