@@ -39,6 +39,6 @@ echo "$rowcount";
 $query2 = "INSERT INTO `subject`(`SubjectName`, `id`) VALUES ('$subject',$rowcount)";
 mysqli_query($con, $query2);
 
-header('location:../index.php');
+header('location:g-job-board.php');
 
 ?>

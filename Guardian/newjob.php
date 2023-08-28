@@ -17,6 +17,9 @@
   <div class="container-fluid bg-dark text-light py-3">
     <header class="text-center">
       <h1 class="display-6">Job Details</h1>
+      <div class="profile-btn">
+            <a class="btn btn-primary profile" href="GuardianProfile.php" role="button" style="float:right;">Profile</a>
+      </div>
     </header>
   </div>
   <section class="container my-2 bg-dark w-50 text-light p-2">

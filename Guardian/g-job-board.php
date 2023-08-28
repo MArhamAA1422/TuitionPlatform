@@ -1,7 +1,11 @@
 <?php
-
+session_start();
 require_once('../info.php');
-$query = "SELECT * FROM `post`";
+
+$contact = $_SESSION['contact'];
+
+$query = "SELECT * FROM `post` WHERE Contact=$contact";
+
 $res = mysqli_query($con,$query);
 
 ?>
@@ -30,28 +34,33 @@ $res = mysqli_query($con,$query);
             <h3 class="jb">Job Board</h3>
         </div>
         <div class="profile-btn">
-            <a class="btn btn-primary profile" href="GuardianProfile.html" role="button">Profile</a>
+            <a class="btn btn-primary profile" href="GuardianProfile.php" role="button" style="float:right;">Profile</a>
         </div>
     </header>
 
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="card" style="width:100%; text-align: center;">
         <?php
 
             while ($row = mysqli_fetch_assoc($res)) {
         ?>
 
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
+            <!-- <div class="col">
+                <div class="card"> -->
+                    <div class="card-body" style="border-style: dashed; margin: 0 0 2.5px 5px;">
                         <h5 class="card-title">Tuition NO: <?php echo $row['id']; ?> </h5>
                         <p class="card-text"><strong><?php echo $row['Title']; ?> </strong></p>
-                        <p class="card-text"><strong>Location:</strong> <?php echo $row['Location']; ?> <strong></p>
+                        <p class="card-text"><strong>Location:</strong> <?php echo $row['Location']; ?></p>
+                        <p class="card-text"><strong>Subject:</strong> <?php echo $row['Subject']; ?></p>
                         <p class="card-text"><strong>Salary:</strong> <?php echo $row['Salary']; ?> </p>
                         <!-- <p class="card-text"><strong>Contact:</strong> <?php echo $row['Contact']; ?> </p> -->
-                        <a href="../apply.html" class="button">Apply</a>
+                        <!-- <a href="../apply.html" class="button">Apply</a> -->
+                        <form action="applicant.php" method="post">
+                                    <input type="hidden" name="content_id" value="<?php echo $row['id']; ?>">
+                                    <input type="submit" name="apply" value="Applicant(s)">
+                         </form>
                     </div>
-                </div>
-            </div>
+                <!-- </div>
+            </div> -->
 
         <?php
             }
