@@ -1,3 +1,10 @@
+<?php
+  session_start();
+  if (empty($_SESSION['email'])) {
+    header('location:tutorlogin.html');
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +12,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GuardianProfile</title>
+  <title>TutorProfile</title>
   <link rel="stylesheet" href="../css/style-guardian.css">
   <style>
     ul {
@@ -46,7 +53,8 @@
 
 
     <ul>
-      <li><a href="../Guardian/g-job-board.php">Feed</a></li>
+      <li><a href="tutorfeed.php">Find Job</a></li>
+      <li><a href="status.php">Inbox</a></li>
       <li><a href="tutorlogout.php">Log Out </a></li>
     </ul>
     <br>

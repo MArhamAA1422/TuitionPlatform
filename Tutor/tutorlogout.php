@@ -1,8 +1,11 @@
 <?php
 
-session_destroy();
+session_start();
+unset($_SESSION['email']);
+unset($_SESSION['id']);
 
-header("Location: ../index.php");
+// header("Location: tutorlogin.html");
+header("location: ../index.php");
 
 
 ?>
