@@ -1,6 +1,8 @@
 # TuitionPlatform
 A very simple DB project. Just to feel project vibe!
 
+**Author:Md. Mazharul Islam & Md. Arham Ahmed Adil**
+
 ### How to Run the Project
 
 **Software:** xampp, apache server, MySQL
