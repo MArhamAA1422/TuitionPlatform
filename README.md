@@ -19,7 +19,7 @@ A very simple DB project. Just to feel project vibe!
 
 ### Database: MySQL
 
-## Project Flow
+## Some snap shot of this projocts flow
 
 ![alt text](images/home.png "Home")
 
