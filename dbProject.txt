@@ -1,0 +1,58 @@
+TECHNOLOGIES
+	FRONTEND - HTML, CSS, JS, BootStrap
+	BACKEND  - NodeJS, PHP, MongoDB, MySQL?
+	DB
+
+1. category (subject wise - phy, che, math; skill; religious; admission; child care; langLearning; )
+	
+2. Available tutors profile
+	
+3. editable user profile
+
+4. default home page
+
+5. login (parents, tutor)
+
+6. sign up page
+
+7. job board
+	a) tuition type (home, online)
+	b) location
+	c) salary
+	d) subject & class
+	e) days per week & hour per session
+	f) job id, posted date
+	g) gender (student & tutor)
+	h) preferable tutoring time
+	i) # of std
+	j) medium
+
+8. feedback
+
+9. web hosting
+
+10. filter system
+
+
+pages-
+	index(home)
+	Mazhar: guardianProfile -> feed, newJob, updateJob
+	jobboard (feed) - consider pale color
+	Mazhar: signin
+	Mazhar: signup
+
+Works-
+		#done: apply button
+		#done: guardian post -> list (applier)
+		#done: applier_list (db)
+		#done: search own post of guardian
+		#done: guardian logout
+		#done: tutor own feed
+		#done: remove apply button from guardian feed
+		# done: guardian can reject or approve an applicant (reject -> are you sure? (dialog box))
+
+	video, profile edit system // so unfortunate
+	
+	Task given by instructors
+		#done: booked option
+		#done: post delete confirmation
