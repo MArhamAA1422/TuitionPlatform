@@ -1,6 +1,8 @@
 # TuitionPlatform
 A very simple DB project. Just to feel project vibe!
 
+**Author:Md. Mazharul Islam & Md. Arham Ahmed Adil**
+
 ### How to Run the Project
 
 **Software:** xampp, apache server, MySQL
@@ -13,9 +15,11 @@ A very simple DB project. Just to feel project vibe!
 
 ### FrontEnd Development Tools: HTML, CSS, Bootstrap, JS
 
-### BackEnd Development Tools: PHP, MySQL
+### BackEnd Development Tools: PHP
 
-## Project Flow
+### Database: MySQL
+
+## Some snap shot of this projocts flow
 
 ![alt text](images/home.png "Home")
 
