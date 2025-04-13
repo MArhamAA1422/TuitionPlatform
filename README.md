@@ -1,7 +1,7 @@
 # TuitionPlatform
 A very simple DB project. Just to feel project vibe!
 
-**Author: Md. Mazharul Islam & Md Arham Ahmed Adil**
+**Author: Md. Mazharul Islam & Arham Ahmmad Adil**
 
 ### How to Run the Project (Also can be run in different ways)
 
