@@ -33,8 +33,7 @@
 **Database:**
 - MySQL
 
-### How to Run the Project
-(Recommended Way)
+### How to Run the Project (Recommended Way)
 
 **Requirements:** xampp (includes Apache Server & MySQL)
 
