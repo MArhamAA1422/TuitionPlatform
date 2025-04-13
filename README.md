@@ -1,5 +1,14 @@
 # TuitionPlatform
-A very simple DB project. Just to feel project vibe!
+
+### Project Overview
+
+**Tuition Platform** is a web-based application that connects tutors with guardians seeking home tuition services. It features a user-friendly registration system where tutors must provide a valid institution registration number. Guardians can create and manage tuition posts, while tutors can build profiles, search available jobs through the job board, apply for positions, and receive in-app notifications about their application status (accepted or rejected).
+
+**Key Features:**
+- User registration as Guardians or Tutors  
+- Tuition post creation and management for guardians  
+- Job board with search and apply functionality  
+- In-app notifications for real-time application status updates
 
 **Author: Md. Mazharul Islam & Arham Ahmmad Adil**
 
