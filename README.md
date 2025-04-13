@@ -1,5 +1,7 @@
 # TuitionPlatform
 
+**Authors: Md. Mazharul Islam, Arham Ahmmad Adil**
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -16,8 +18,6 @@
 - Tuition post creation and management for guardians  
 - Job board with search and apply functionality  
 - In-app notifications for real-time application status updates
-
-**Author: Md. Mazharul Islam & Arham Ahmmad Adil**
 
 ### Tech Stack
 
