@@ -3,21 +3,34 @@ A very simple DB project. Just to feel project vibe!
 
 **Author: Md. Mazharul Islam & Arham Ahmmad Adil**
 
-### How to Run the Project (Also can be run in different ways)
+### How to Run the Project (Recommended Way)
 
-**Software:** xampp, apache server, MySQL
+**Requirements:** xampp (includes Apache Server & MySQL)
 
-1) First we run apache server and MySQL from the xampp console locally.
+#### Steps:
 
-2) Then, we run “http://localhost/TuitionPlatform/index.php” in any browser.
+1. Start Apache and MySQL services from the XAMPP Control Panel.
 
-3) Here, **TuitionPlatform** should be located inside the **xampp/htdocs** folder.
+2. Make sure the project folder is placed inside the htdocs directory: xampp/htdocs/TuitionPlatform
 
-### FrontEnd Development Tools: HTML, CSS, Bootstrap, JS
+3. Open your web browser and navigate to: http://localhost/TuitionPlatform/index.php
 
-### BackEnd Development Tools: PHP
+You should now see the homepage of the Tuition Platform.
 
-### Database: MySQL
+### Tech Stack
+
+**Frontend:**
+- HTML  
+- CSS  
+- Bootstrap  
+- JavaScript
+
+**Backend:**
+- PHP
+
+**Database:**
+- MySQL
+
 
 ## Some snap shots of this project
 
