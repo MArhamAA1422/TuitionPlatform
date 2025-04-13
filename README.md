@@ -4,7 +4,7 @@
 
 - [Project Overview](#project-overview)
 - [Tech Stack](#tech-stack)
-- [How to Run](#how-to-run-the-project)
+- [How to Run](#how-to-run-the-project-recommended-way)
 - [Some Snapshots](#some-snap-shots-of-this-project)
 
 ### Project Overview
